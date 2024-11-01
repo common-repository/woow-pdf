@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* ====================== */
+#wpwrap {
+    background-color: #f0f0f1;
+}
+.plugin-logo img {
+    width: 152px;
+    padding: 10px;
+    background: #000;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+li.nav-item {
+    margin-bottom: 0 !important;
+}
+li.nav-item > a {
+    padding-bottom: 10px;
+}
+.general-settings-box .form-table th {
+    width: 210px;
+}
+.general-settings-box .form-table td {
+    padding: 20px;
+}
+.general-settings-box .form-table input[type=radio], .watermark-settings-box .form-table input[type=radio] {
+    margin-top: 0;
+}
+.general-settings-box small {
+    color: #3991ff;
+}
+.general-settings-box strong {
+    color: #787878;
+}
+#woow-pdf-compress-box table tbody tr:nth-last-child(-n+2), #woow-pdf-watermark-first-box table tbody tr:last-child {
+    display: none;
+}
+.woow-pdf-tick-icon {
+    color: #00a32a;
+    font-size: 22px;
+}
+.woowpdf-field-required {
+    margin-left: 8px;
+    color: #b70000;
+}
+img#image-preview {
+    margin-bottom: 6px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .1), inset 0 0 0 1px rgba(0, 0, 0, .05);
+    background: #f0f0f1;
+}
+#wn-image-accept {
+    margin-bottom: 12px;
+}
